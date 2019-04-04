@@ -54,7 +54,7 @@ public class MovieRepository {
                                             Images imgs = response.body();
                                             m.setImages(imgs);
                                             for(Poster p : imgs.getPosters()) {
-                                                
+
                                             }
                                         }
 
